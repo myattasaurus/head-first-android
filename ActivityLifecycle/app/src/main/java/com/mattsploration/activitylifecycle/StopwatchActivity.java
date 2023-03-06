@@ -54,6 +54,11 @@ public class StopwatchActivity extends Activity {
         timerData.stateSave(savedInstanceState);
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
     private void initializeTimerData(Bundle savedInstanceState) {
         TextView timeView = findViewById(R.id.time_view);
         SecondsListener timeViewSecondsListener = new TextViewDisplaySecondsListener(timeView);
