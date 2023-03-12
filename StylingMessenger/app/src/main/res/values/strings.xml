@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Styling Messenger</string>
+    <string name="to">To</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="messenger">Messenger</string>
+    <string name="duck">Duck</string>
+</resources>
